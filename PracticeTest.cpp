@@ -26,7 +26,7 @@ TEST(PracticeTest, is_not_simple_palindrome)
 {
     Practice obj;
     bool actual = obj.isPalindrome("abaa");
-    ASSET_FALSE(actual);
+    ASSERT_FALSE(actual);
 }
 
 TEST(PracticeTest, is_single_character_palindrome)
